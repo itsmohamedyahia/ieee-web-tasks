@@ -1,16 +1,30 @@
-header {
-  font-size: 30px;
-  font-weight: 700;
-  height: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header,
-section {
+body {
+  height: 100vh;
+}
+.container {
+  display: grid;
+  grid-template-rows: 0.8fr 3fr auto;
+  align-items: center;
+  justify-content: center;
+}
+header {
   text-align: center;
 }
-
-ul {
-  text-align: left;
-  display: inline-block;
+.header-name {
+  font-size: 40px;
+  font-weight: 700;
+  margin: auto;
 }
-
-/* height:100vh */
+.photo {
+  height: 500px;
+}
+ul {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 16px;
+}
