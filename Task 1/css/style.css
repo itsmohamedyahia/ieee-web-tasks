@@ -1,0 +1,16 @@
+header {
+  font-size: 30px;
+  font-weight: 700;
+  height: 50px;
+}
+header,
+section {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+}
+
+/* height:100vh */
