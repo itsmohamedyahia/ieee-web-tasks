@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .sec1 {
+        height: 400px;
+        width: 1500px;
+        border: 5px solid aqua;
+        position: relative;
+      }
+      .sec2 {
+        display: flex;
+        border: 5px solid red;
+        height: 400px;
+        width: 1500px;
+        justify-content: center;
+        align-items: center;
+      }
+      .box1 {
+        background-color: blue;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        height: 200px;
+      }
+      .box2 {
+        background-color: black;
+        width: 50%;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="sec1">
+      <div class="box1"></div>
+    </section>
+    <section class="sec2">
+      <div class="box2"></div>
+    </section>
+  </body>
+</html>
