@@ -1,0 +1,107 @@
+/* @font-face {
+  font-family: Klavika;
+  font-weight: bold;
+  src: url("../Klavika/klavika-bold.otf") format("opentype");
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.margin-r {
+  margin-right: 200px;
+}
+
+.welcome-section {
+  float: left;
+  margin-top: 150px;
+  margin-left: 150px;
+  width: 500px;
+  font-family: sans-serif;
+}
+.welcome-section img {
+  width: 350px;
+}
+.login-section {
+  float: right;
+  width: 350px;
+  margin-top: 150px;
+
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 45px;
+  color: blue;
+}
+.welcome-section p {
+  font-size: 24px;
+  margin-left: 35px;
+}
+
+.create-page {
+  float: right;
+  clear: right;
+}
+
+/* login box */
+.full-width {
+  width: 100%;
+}
+
+#f-name,
+#l-name,
+#log-in {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+#log-in {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+#forgot-passwd {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.v-seperator {
+  width: 100%;
+  height: 0.5px;
+  background-color: rgb(219, 219, 219);
+  margin-bottom: 20px;
+}
+#create-account {
+  display: inline-block;
+  background-color: #42b72a;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 55%;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#f-name,
+#l-name {
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
