@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "TT Commons";
+  src: url("../tt-commons-light-italic.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* colors */
+.main-header,
+.sec1,
+footer {
+  /* background-color: rgb(31, 41, 55); */
+  background-color: rgb(31, 41, 53);
+}
+
+.cta-button,
+.cta-fig {
+  /* rgb(58, 142, 238) */
+  background-color: hsl(212, 84%, 52%);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.sec1 {
+  color: white;
+  height: 100vh;
+}
+
+.sec1-box {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 160px 80px;
+}
+
+.sec1-text,
+.sec1-fig {
+  width: 48%;
+}
+
+.sec1-img {
+  display: inline-block;
+}
+.main-description {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.main-heading {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 36px;
+  font-size: 16px;
+}
+
+.sec1-fig {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 {
+  text-align: center;
+}
+
+.fig-container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.sec2-img {
+  display: inline-block;
+  border: 3px solid hsl(212, 84%, 52%);
+
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.sec2-img-text {
+  font-size: 12px;
+}
+
+.sec2 {
+  padding: 60px;
+  padding-bottom: 100px;
+}
+
+.sec2 h2 {
+  margin-bottom: 60px;
+}
+
+.sec3 {
+  background-color: gainsboro;
+  padding: 160px;
+}
+
+q {
+  font-style: italic;
+  font-family: "TT Commons";
+  font-size: 36px;
+}
+
+blockquote {
+}
+figcaption {
+  text-align: right;
+  padding-right: 25px;
+  font-weight: bold;
+}
+
+.sec4 {
+  padding: 100px;
+  background-color: rgb(246, 251, 255);
+}
+
+.cta-fig {
+  padding: 50px 120px;
+  color: rgb(246, 251, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-btn2 {
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 5px 35px;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+
+@media all and (min-width: 1800px) {
+  body {
+    transform: translate(0, 15%) scale(1.3);
+  }
+}
