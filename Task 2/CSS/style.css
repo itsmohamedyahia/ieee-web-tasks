@@ -75,6 +75,7 @@ h1 {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
 }
 #forgot-passwd {
   display: inline-block;
@@ -104,4 +105,12 @@ h1 {
 #l-name {
   border: 1px solid #dddfe2;
   border-radius: 6px;
+}
+
+#f-name:focus-visible,
+#l-name:focus-visible {
+  outline: none;
+  border-color: #1b74e4;
+  box-shadow: 0 0 0 2px #e7f3ff;
+  caret-color: #1b74e4;
 }
