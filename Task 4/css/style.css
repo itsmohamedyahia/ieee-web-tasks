@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --prim-color: #1992d4;
+  --gray-color: #e2e8f0;
+  --accent-color: #f0b429;
+  --text-color: #999;
+}
 /*
 ======================== 01 TYPOGRAPHY SYSTEM ==============
       FONT SIZE SYSTEM (px)
@@ -17,16 +24,10 @@
          -0.5px
           0.75px
 ============================= 02 COLORS ========================
-            PRIMARY COLOR:#e67e22
-                TINTS:
-                #fdf2e9
-                #fae5d3
-                SHADES: #cf711f
-            ACCENTS:
-            GREYS:
-            #6f6f6f (lightest grey allowed on #fdf2e9)
-            #555
-            #333
+            PRIMARY COLOR:#1992d4;
+            ACCENTS: #f0b429
+            GREYS: #E2E8F0
+            #999
 ============================= 05 SHADOWS ========================
 ============================= 06 BORDER RADIUS ========================
             Default: 9px
@@ -56,22 +57,32 @@ body {
 }
 
 .nav {
-  background-color: rgb(25, 146, 212);
+  background-color: var(--prim-color);
   padding: 1.8rem;
   color: white;
 }
 
 main {
-  background-color: beige;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.icon {
+  width: 3.6rem;
+  height: 3.6rem;
 }
 /* ======================== HELPER CLASSES ====================*/
 
 .mrgn-btm-xl {
   margin-bottom: 6.4rem;
 }
-
 .mrgn-lt-sm {
   margin-left: 1.2rem;
+}
+
+.flex-cntr-ver {
+  display: flex;
+  align-items: center;
 }
 
 /* ======================== NAVBAR ====================*/
@@ -80,16 +91,12 @@ main {
   font-weight: 600;
 }
 .page-box {
-  display: flex;
-  align-items: center;
   gap: 1.2rem;
 }
 .nav-btns li {
   list-style: none;
 }
 .nav-btn {
-  display: flex;
-  align-items: center;
   gap: 2.4rem;
 }
 a {
@@ -104,10 +111,90 @@ a {
 }
 
 .nav-icon {
-  width: 3.6rem;
-  height: 3.6rem;
   /* brilliance in action */
   filter: brightness(0) invert(1);
 }
 
 /* <img src="https://img.icons8.com/office/80/null/pixel-cat.png"/> */
+
+/* ======================== MENU ====================*/
+.page-menu {
+  padding: 0 4.8rem;
+  background-color: white;
+}
+.menu-row1 {
+  padding: 1.6rem 0;
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+}
+.menu-row2 {
+  padding-bottom: 2rem;
+}
+.search {
+  flex-grow: 1;
+}
+.search-bar {
+  border: none;
+  border-radius: 100px;
+  width: 100%;
+
+  height: 4rem;
+  background-color: var(--gray-color);
+}
+
+.search-icon {
+  margin-right: 2.4rem;
+}
+.extra {
+  gap: 4rem;
+  margin-right: 2.4rem;
+  margin-left: auto;
+}
+.profile-pic-sm {
+  width: 6.4rem;
+}
+
+.profile a {
+  gap: 3rem;
+  margin-right: ;
+}
+.profile-name-sm {
+  font-size: 2.4rem;
+  color: black;
+  font-weight: 500;
+}
+.profile-pic-md {
+  width: 8rem;
+}
+.welcome {
+  gap: 2.4rem;
+}
+
+.welcome-hi {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.profile-name-md {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.menu-act-btns {
+  gap: 2.4rem;
+  margin-left: auto;
+}
+.menu-act-btn {
+  border: none;
+  background-color: var(--prim-color);
+  padding: 1.2rem 2.8rem;
+  border-radius: 100px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+/* ====================== CONTAINER ====================*/
+
+.container {
+  background-color: var(--gray-color);
+}
