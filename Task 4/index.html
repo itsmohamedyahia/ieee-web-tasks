@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard Page</title>
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
+
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
@@ -103,36 +106,223 @@
             <input class="search-bar" />
           </div>
           <div class="extra flex-cntr-ver">
-            <a href="#" role="button"
-              ><img class="icon" src="svg/bell-ring.svg"
+            <a href="#" class="notif" role="button"
+              ><img class="icon icon--menu" src="svg/bell-ring.svg"
             /></a>
             <div class="profile">
               <a class="flex-cntr-ver" href="#" role="button">
-                <img class="profile-pic-sm" src="img/cat.png" />
+                <img class=".profile-pic profile-pic-sm" src="img/cat.png" />
                 <span class="profile-name-sm">Morgan Oakley</span>
               </a>
             </div>
+            <a href="#" role="button">
+              <img
+                class="icon--menu mob-drop-btn"
+                src="svg/arrow-down-drop-circle-outline.svg"
+              />
+            </a>
           </div>
         </div>
         <menu class="menu-row2 flex-cntr-ver">
           <div class="welcome flex-cntr-ver">
-            <img class="profile-pic-md" src="img/cat.png" />
+            <img class=".profile-pic profile-pic-md" src="img/cat.png" />
             <div class="welcome-text">
               <div class="welcome-hi">Hi there,</div>
+
               <div class="profile-name-md">Morgan Oakley (@morgan)</div>
             </div>
           </div>
+          <div class="welcome-hi-sm hidden">Hi there.</div>
           <div class="menu-act-btns flex-cntr-ver">
             <button class="menu-act-btn">New</button>
             <button class="menu-act-btn">Upload</button>
             <button class="menu-act-btn">Share</button>
+            <button class="mob-act-btn">Actions</button>
           </div>
         </menu>
       </menu>
-      <div class="container">
-        <section class="projects">Projects</section>
-        <section class="announcements">announcements</section>
-        <section class="trending">trending</section>
+      <div class="main-container">
+        <section class="projects-container">
+          <h2 class="heading-secondary">Your Projects</h2>
+          <div class="projects">
+            <div class="project">
+              <h3 class="heading-tertiary">Super Cool Project</h3>
+              <p class="project-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam accusantium est quaerat aliquam officiis alias voluptas
+                rem.
+              </p>
+              <div class="project-actions">
+                <button class="project-action">
+                  <img src="svg/star-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/eye-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/source-branch.svg" class="project-icon" />
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="heading-tertiary">Super Cool Project</h3>
+              <p class="project-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam accusantium est quaerat aliquam officiis alias voluptas
+                rem.
+              </p>
+              <div class="project-actions">
+                <button class="project-action">
+                  <img src="svg/star-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/eye-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/source-branch.svg" class="project-icon" />
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="heading-tertiary">Super Cool Project</h3>
+              <p class="project-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam accusantium est quaerat aliquam officiis alias voluptas
+                rem.
+              </p>
+              <div class="project-actions">
+                <button class="project-action">
+                  <img src="svg/star-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/eye-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/source-branch.svg" class="project-icon" />
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="heading-tertiary">Super Cool Project</h3>
+              <p class="project-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam accusantium est quaerat aliquam officiis alias voluptas
+                rem.
+              </p>
+              <div class="project-actions">
+                <button class="project-action">
+                  <img src="svg/star-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/eye-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/source-branch.svg" class="project-icon" />
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="heading-tertiary">Super Cool Project</h3>
+              <p class="project-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam accusantium est quaerat aliquam officiis alias voluptas
+                rem.
+              </p>
+              <div class="project-actions">
+                <button class="project-action">
+                  <img src="svg/star-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/eye-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/source-branch.svg" class="project-icon" />
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="heading-tertiary">Super Cool Project</h3>
+              <p class="project-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam accusantium est quaerat aliquam officiis alias voluptas
+                rem.
+              </p>
+              <div class="project-actions">
+                <button class="project-action">
+                  <img src="svg/star-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/eye-plus-outline.svg" class="project-icon" />
+                </button>
+                <button class="project-action">
+                  <img src="svg/source-branch.svg" class="project-icon" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <aside>
+          <section class="announce-container">
+            <h2 class="heading-secondary">Announcements</h2>
+            <div class="announces br-sm">
+              <div class="announce">
+                <h4 class="heading-quaternary">Site Maintenance</h4>
+                <p class="announce-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Itaque possimus accusamus asperiores
+                </p>
+              </div>
+
+              <div class="announce">
+                <h4 class="heading-quaternary">Site Maintenance</h4>
+                <p class="announce-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Itaque possimus accusamus asperiores
+                </p>
+              </div>
+              <div class="announce">
+                <h4 class="heading-quaternary">Site Maintenance</h4>
+                <p class="announce-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Itaque possimus accusamus asperiores
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="trending-container">
+            <h2 class="heading-secondary">Trending</h2>
+            <div class="trendings br-sm">
+              <div class="trending">
+                <img src="img/cat.png" class="trending-img" />
+                <div class="trending-text">
+                  <p class="trending-usr">@tegan</p>
+                  <p class="trending-name">World Peace Builder</p>
+                </div>
+              </div>
+              <div class="trending">
+                <img src="img/2.png" class="trending-img" />
+                <div class="trending-text">
+                  <p class="trending-usr">@morgan</p>
+                  <p class="trending-name">Super Cool Project</p>
+                </div>
+              </div>
+              <div class="trending">
+                <img src="img/3.png" class="trending-img" />
+                <div class="trending-text">
+                  <p class="trending-usr">@kendall</p>
+                  <p class="trending-name">Life Changing App</p>
+                </div>
+              </div>
+              <div class="trending">
+                <img src="img/4.png" class="trending-img" />
+                <div class="trending-text">
+                  <p class="trending-usr">@alex</p>
+                  <p class="trending-name">No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </aside>
       </div>
     </main>
   </body>
